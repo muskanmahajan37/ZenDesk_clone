@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:intl/intl.dart';
 import 'package:zendesk_clone/UI/Resources/Constants.dart';
 import 'package:zendesk_clone/UI/Resources/SharedMethods.dart';
 
@@ -25,7 +24,7 @@ class _OverviewPageState extends State<OverviewPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    'Good Afternoon, User',
+                    'Good Afternoon, Ketan',
                     style: kBoldTextStyle,
                   ),
                   Text(

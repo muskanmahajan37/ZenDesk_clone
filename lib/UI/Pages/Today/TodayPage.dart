@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:zendesk_clone/UI/Pages/TabPages/ActivityPage.dart';
-import 'package:zendesk_clone/UI/Pages/TabPages/OverviewPage.dart';
+import 'package:zendesk_clone/UI/Pages/BottomSheet/CreateAppointment.dart';
+import 'package:zendesk_clone/UI/Pages/Today/TabPages/ActivityPage.dart';
+import 'package:zendesk_clone/UI/Pages/Today/TabPages/OverviewPage.dart';
+import 'package:zendesk_clone/UI/Resources/SharedMethods.dart';
 
 class TodayPage extends StatefulWidget {
   TodayPage({Key key}) : super(key: key);
@@ -100,7 +102,9 @@ class _TodayPageState extends State<TodayPage>
                     context,
                     icon: Feather.calendar,
                     text: 'Appointment',
-                    onTap: () {},
+                    onTap: () {
+                      kopenPageBottom(context, CreateAppointmentPage());
+                    },
                   ),
                   _bottomSheetElements(
                     context,

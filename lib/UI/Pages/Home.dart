@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:zendesk_clone/UI/Pages/TabPages/TodayPage.dart';
+import 'package:zendesk_clone/UI/Pages/Today/TodayPage.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);

@@ -11,7 +11,15 @@ class _ActivityPageState extends State<ActivityPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.red,
+        child: Center(
+          child: Text(
+            'You have no Activity today.',
+            style: TextStyle(
+              color: Colors.grey,
+              fontWeight: FontWeight.w500
+            ),
+          ),
+        ),
       ),
     );
   }
